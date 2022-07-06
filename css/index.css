@@ -37,6 +37,7 @@ body {
     width: 380px;
     float: right;
     padding-right: 200px;
+    border: #000000;
   }
   .content1 {
     width: 600px;
