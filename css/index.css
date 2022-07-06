@@ -21,6 +21,7 @@ body {
   header ul {
     float: right;
     color: white;
+    font-family: 'Playfair Display', serif;
   }
   header li {
     display: inline-block;
@@ -51,16 +52,29 @@ body {
     border-radius: 4px;
   }
   footer {
-    background-color: #373738;
-    color: white;
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
   }
-  footer ul{
-    display: inline-block;
-    vertical-align: top;
+  .linkedinlogo{
+    padding-left: 50px;
   }
-  footer li {
+  .maillogo{
+    padding-right: 50px;
+  }
+  .footerlogo{
+    width: 30px;
+  }
+  footer p{
+    width: auto;
     display: inline-block;
-    padding: 0px 20px;
+    margin: auto;
+    font-family: 'Playfair Display', serif;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .content1 p {
     color: white;
@@ -76,4 +90,5 @@ body {
   .SmallGreenLine{
     padding: 20px 20px 20px 0px
   }
+  
   
